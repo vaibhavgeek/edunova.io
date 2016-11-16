@@ -19,8 +19,24 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="typed.min.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
+
+
+<div class="element"></div>
   <h1> Hello World </h1></body>
 </html>
