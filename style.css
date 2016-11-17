@@ -19,3 +19,8 @@
     50% { opacity:0; }
     100% { opacity:1; }
 }
+.mainmenu
+{
+    background-image: url('images/backhome.jpg');
+    height: 810px;
+}
