@@ -155,7 +155,7 @@ header {
   background: url("../img/bg-pattern.png"), #7b4397;
   /* fallback for old browsers */
  
-  color: white;
+  color: #003366;
 }
 header .header-content {
   text-align: center;
